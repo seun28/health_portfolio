@@ -107,3 +107,4 @@ This tool can help healthcare providers:
 - Identify high-risk patients who may need additional follow-up care
 - Allocate resources more effectively
 - Plan appropriate interventions before discharge
+""")
