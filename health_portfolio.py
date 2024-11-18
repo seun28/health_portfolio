@@ -11,7 +11,7 @@ import shap
 
 st.set_page_config(page_title="Healthcare Analytics Portfolio", layout="wide")
 
-    st.title("Hospital Readmission Risk Prediction")
+st.title("Hospital Readmission Risk Prediction")
 
     # Generate sample data
     @st.cache_data
