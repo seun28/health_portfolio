@@ -85,3 +85,25 @@ fig = go.Figure(
     )
 )
 st.plotly_chart(fig)
+
+# Project description
+st.markdown("""
+## About This Project
+
+This Hospital Readmission Risk Prediction tool is designed to help healthcare providers assess the likelihood of patient readmission within 30 days of discharge. The tool uses machine learning to analyze various patient characteristics and provide a risk assessment.
+
+### How It Works
+1. The system uses a Random Forest model trained on historical patient data
+2. Users can input patient information including age, length of stay, number of procedures, medications, diagnoses, and previous admissions
+3. The model processes these inputs to generate a risk score
+
+### Understanding the Risk Indicator
+The gauge shows a readmission risk score from 0-100%:
+- Green zone (0-30%): Low risk of readmission
+- Yellow zone (30-70%): Moderate risk of readmission
+- Red zone (70-100%): High risk of readmission
+
+This tool can help healthcare providers:
+- Identify high-risk patients who may need additional follow-up care
+- Allocate resources more effectively
+- Plan appropriate interventions before discharge
